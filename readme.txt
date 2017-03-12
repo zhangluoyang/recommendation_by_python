@@ -5,6 +5,6 @@ python2.7
 cPick
 datasets: https://grouplens.org/datasets/movielens/
 this is a simple example, attend to comprehension the two algoriths for recommendation.
-you can just run this example by: python recommendation
+you can just run this example by: python recommendation.py
 reference:
     1 推荐系统实践
