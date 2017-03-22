@@ -233,5 +233,7 @@ if __name__ == '__main__':
         test_dict[user][item] = score
     # ItemItemRecommendation
     model = ItemItemRecommendation()
-    model.load()
+    model.itemSimilarity(train_dict)  # training...
+    model.save()  # save the model
+    model.load()  # load the exists pretrain model
     model.recall(train_dict, test_dict, 10, 100)
